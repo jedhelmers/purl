@@ -185,7 +185,7 @@ A note on improperly encoded URLs
 
 If you attempt to use this plugin to parse a URL that has an invalid character encoding in it, it will throw a `URIError` Exception. This will happen if the URL has a percentage sign followed by either a non-numeric character or a numeric value of greater than 80 (i.e. 128 in decimal).
 
-If there is a chance you may end up parsing a badly encoded URL you should probably wrap your calls to this plugin in a try/catch block to prevent this causing unforseen problems.
+If there is a chance you may end up parsing a badly encoded URL you should probably wrap your calls to this plugin in a try/catch block to prevent this causing unforeseen problems.
 
 Thanks to [steve78b](https://github.com/steve78b) for pointing this out.
 
